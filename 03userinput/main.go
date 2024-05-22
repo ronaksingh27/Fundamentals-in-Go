@@ -10,6 +10,7 @@ func main(){
 	welcome := "Welcome to the user input"
 	fmt.Println(welcome)
 
+	/* 22-05-2024 -> Bufio not used much , used "os" instead */
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Println("Enter the rating fo our pizza : ")
 
