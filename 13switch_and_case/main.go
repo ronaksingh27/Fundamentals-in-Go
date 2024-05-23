@@ -28,8 +28,10 @@ func main(){
 		fmt.Println("You can move 6 spots , Roll the dice again")
 		diceNumber = rand.Intn(6) + 1
 		fmt.Println("Dice number ",diceNumber)
-		if diceNumber == 6 {
+		for diceNumber == 6 {
 			fmt.Println("You can move 6 spots , Roll the dice again")
+			diceNumber = rand.Intn(6) + 1
+			fmt.Println("Dice number ",diceNumber)
 		}
 	default :
 		fmt.Println("Number is not on die")
